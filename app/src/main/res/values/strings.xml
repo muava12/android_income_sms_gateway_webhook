@@ -16,6 +16,6 @@
     <string name="error_empty_url">URL Kososng</string>
     <string name="error_wrong_url">URL Salah!</string>
     <string name="asterisk">*</string>
-    <string name="any">Any</string>
+    <string name="any">Semua pesan masuk</string>
     <string name="confirm_delete">Yakin mau hapus "%s" ?</string>
 </resources>

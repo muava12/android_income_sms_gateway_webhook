@@ -55,6 +55,5 @@
         android:hint="@string/input_url"
         android:inputType="textUri"
         android:textColor="@android:color/white"
-        android:textColorHint="@android:color/darker_gray"
-        android:textCursorDrawable="@android:color/background_light" />
+        android:textColorHint="@android:color/darker_gray" />
 </LinearLayout>
