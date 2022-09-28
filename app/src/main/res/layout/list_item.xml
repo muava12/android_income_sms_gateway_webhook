@@ -23,7 +23,7 @@
         android:id="@+id/text_sender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#000"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         tools:ignore="RtlSymmetry" />
 
@@ -33,13 +33,15 @@
         android:layout_marginTop="0dp"
         android:labelFor="@+id/input_phone"
         android:text="@string/label_url"
+        android:textColor="@android:color/white"
         android:textSize="12sp" />
 
     <TextView
         android:id="@+id/text_url"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#000"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
         android:textSize="18sp"
         tools:ignore="RtlSymmetry" />
 
@@ -51,7 +53,6 @@
 
         <Button
             android:id="@+id/delete_button"
-            android:onClick="onDeleteClick"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,9 +60,10 @@
             android:layout_alignParentRight="true"
             android:height="10dp"
             android:minHeight="32dp"
+            android:onClick="onDeleteClick"
             android:text="@string/btn_delete"
             android:textAllCaps="true"
-            android:textColor="@color/colorDanger"
+            android:textColor="@color/colorPrimary"
             android:textSize="14sp" />
     </RelativeLayout>
 </LinearLayout>
